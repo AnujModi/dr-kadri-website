@@ -1,0 +1,14 @@
+# Allow all crawlers
+User-agent: *
+
+Allow: /
+
+# Private resources
+Disallow: /forms/
+
+# Do not index downloadable documents
+Disallow: /*.doc$
+Disallow: /*.docx$
+
+# Sitemap
+Sitemap: https://carrolltonperio.com/sitemap.xml

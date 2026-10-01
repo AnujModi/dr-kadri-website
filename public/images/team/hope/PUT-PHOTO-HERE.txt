@@ -1,0 +1,3 @@
+Drop hope's photo in this folder, named:  hope.jpg
+(A square or portrait headshot works best — it will be cropped to a circle.)
+Then tell Claude to add it, or replace the initial-avatar in index.html.

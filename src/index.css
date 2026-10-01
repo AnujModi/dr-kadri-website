@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: var(--font-sans);
+  --font-body: var(--font-sans);
+  --color-cream: #FDFBF7;
+  --color-cream-dark: #F5F3EF;
+}
+
+html {
+  transition: font-size 0.2s ease-out;
+  /* Force light color scheme to prevent browser dark mode from affecting colors */
+  color-scheme: light;
+}
+
+body {
+  font-family: var(--font-sans);
+  @apply transition-colors duration-500 ease-in-out;
+  background-color: var(--color-cream);
+  color: #1a1a1a;
+}
+
+/* Override any dark mode styles - keep site always in light mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--color-cream);
+    color: #1a1a1a;
+  }
+}
