@@ -114,3 +114,21 @@ for (const width of [1280, 1366, 1440, 1536, 1920]) {
   await expect(navigationText).toHaveCSS('font-size', '14px');
   await expect(navigationText).toHaveCSS('letter-spacing', '1.4px');
 });
+
+for (const route of footerRoutes) {
+  test(`Given a page scrolled to its footer, when ${route} is opened, then the destination starts at the top`, async ({ page }) => {
+    // Given
+    await page.goto('/');
+    const link = page.locator(`footer a[href="${route}"]`);
+    await link.scrollIntoViewIfNeeded();
+    await expect.poll(() => page.evaluate(() => window.scrollY)).toBeGreaterThan(0);
+
+    // When
+    await clickReachableLink(link);
+
+    // Then
+    await expectPageLoaded(page, route);
+    await expect.poll(() => page.evaluate(() => window.scrollY)).toBe(0);
+    await expect(page.locator('nav').first()).toBeInViewport();
+  });
+}
