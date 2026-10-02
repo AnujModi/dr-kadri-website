@@ -45,7 +45,7 @@
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.46.4",
     "vite": "npm:rolldown-vite@7.2.5",
-    "vite-imagetools": "^10.0.0",
+    "vite-imagetools": "^12.0.1",
     "vite-plugin-compression": "^0.5.1",
     "vite-plugin-singlefile": "^2.3.0",
     "vitest": "^5.0.3"
