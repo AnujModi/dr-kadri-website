@@ -48,7 +48,17 @@ npm run check               # Run all checks, including build and browser tests
 
 Build before running `test:e2e` on its own. Playwright starts the preview server automatically on port 4173; keep that port free. Tests cover treatment navigation, presentation mode and chapter changes, actual autoplay, keyboard focus, closing/reopening the dialog, team content, direct page routes, missing images, and unknown-route recovery.
 
-GitHub Actions runs the complete check on pushes to `main` and pull requests. Browser coverage currently uses desktop and mobile Chromium; Safari and Firefox are not included.
+GitHub Actions runs the complete check on every push and pull request, and can also be started manually from the Actions tab. Navigation tests click every primary link at six widths (375–1920px), every footer link, and every team subpage link. They also verify automatic install prompts stay suppressed on all public pages. These are real browser clicks, so obstructed links fail. When adding a page, update the shared route contract in `e2e/routes.ts` and add its visible navigation link; direct-load and popup checks reuse that contract.
+
+Browser coverage currently uses desktop and mobile Chromium; Safari and Firefox are not included.
+
+### Test conventions
+
+Use sentence-style behavior names: `Given a scenario, when an action occurs, then an outcome follows`. This is the JavaScript equivalent of C# `GivenScenario_WhenAction_ThenOutcome` test methods. Keep setup, action, and assertions separated with `// Given`, `// When`, and `// Then` comments.
+
+Keep one behavior per test. Use table-driven cases for the same behavior across routes, viewport sizes, or presentation modes. Use Playwright `test.step` for individual actions in a navigation journey so failures identify the affected route.
+
+Shared browser helpers live in `e2e/helpers/`; shared React rendering helpers live in `tests/helpers/`. Extract repeated setup and domain assertions, but keep the action and expected outcome readable in the test itself. Use real clicks without `force` so inaccessible controls fail.
 
 ## Project layout
 

@@ -37,7 +37,7 @@ const staffMembers: { name: string; role: string; image: string | null; bio?: st
   {
     name: "Holly Marchman",
     role: "Team Member",
-    image: null,
+    image: "/images/team/holly.jpeg",
   },
 ];
 

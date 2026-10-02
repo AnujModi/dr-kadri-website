@@ -11,7 +11,6 @@ import MobileMenu from "../components/MobileMenu";
 import ScrollProgress from "../components/ScrollProgress";
 import ScrollToTop from "../components/ScrollToTop";
 import Footer from "../components/Footer";
-import PWAInstallPrompt from "../components/PWAInstallPrompt";
 import StructuredData from "../components/StructuredData";
 
 // Lazy load non-critical route components
@@ -49,55 +48,57 @@ export default function App() {
       <ScrollProgress />
       <ScrollToTop />
 
-      <nav className="p-8 border-b border-gray-200 flex justify-between items-center sticky top-0 bg-[#FDFBF7]/90 backdrop-blur-md z-40">
-        <Link to="/" className="flex items-center gap-4 group">
+      <nav className="p-4 sm:p-6 2xl:p-8 border-b border-gray-200 flex gap-4 justify-between items-center sticky top-0 bg-[#FDFBF7]/90 backdrop-blur-md z-40">
+        <Link to="/" className="flex items-center gap-2 sm:gap-3 group min-w-0 xl:shrink-0">
           {/* Logo Image - Increased size to h-16 */}
           <img
             src="/images/logo.jpeg"
             alt="Carrollton Periodontics Logo"
-            className="h-16 w-auto object-contain transition-transform group-hover:scale-105"
+            className="h-12 sm:h-16 w-auto object-contain transition-transform group-hover:scale-105"
             loading="eager"
           />
 
           {/* Text Branding Stack */}
           <div className="flex flex-col">
             {/* Line 1: Large & Bold */}
-            <span className="text-2xl font-bold tracking-tighter uppercase leading-none dark:text-black">
+            <span className="text-sm sm:text-2xl xl:text-lg 2xl:text-2xl font-bold tracking-tighter uppercase leading-none dark:text-black">
               Carrollton Periodontics
             </span>
 
             {/* Line 2: Half Size & Spaced */}
-            <span className="text-[12px] font-medium tracking-[0.3em] uppercase text-gray-400 leading-relaxed">
+            <span className="text-[9px] sm:text-[12px] font-medium tracking-[0.15em] sm:tracking-[0.3em] uppercase text-gray-400 leading-relaxed">
               & Implant Dentistry
             </span>
           </div>
         </Link>
 
         {/* Desktop Links */}
-        <div className="hidden md:flex gap-8">
-          <Link to="/patient-info" className="text-sm uppercase tracking-widest text-gray-500 hover:text-black transition-colors">Patient Information</Link>
-          <Link to="/periodontal-disease" className="text-sm uppercase tracking-widest text-gray-500 hover:text-black transition-colors">Periodontal Disease</Link>
+        <div className="hidden xl:flex flex-1 min-w-0 items-center justify-end gap-4 2xl:gap-6 min-[1700px]:gap-8">
+          <Link to="/patient-info" className="whitespace-nowrap text-xs 2xl:text-sm uppercase tracking-wider 2xl:tracking-widest text-gray-500 hover:text-black transition-colors">Patient Information</Link>
+          <Link to="/periodontal-disease" className="whitespace-nowrap text-xs 2xl:text-sm uppercase tracking-wider 2xl:tracking-widest text-gray-500 hover:text-black transition-colors">Periodontal Disease</Link>
           <Link to="/non-surgical-procedures" className="flex flex-col items-center text-gray-500 hover:text-black transition-colors">
-            <span className="text-sm uppercase tracking-widest">Non-Surgical</span>
+            <span className="whitespace-nowrap text-xs 2xl:text-sm uppercase tracking-wider 2xl:tracking-widest">Non-Surgical</span>
             <span className="text-[9px] uppercase tracking-widest text-gray-400">Procedures</span>
           </Link>
           <Link to="/surgical-procedures" className="flex flex-col items-center text-gray-500 hover:text-black transition-colors">
-            <span className="text-sm uppercase tracking-widest">Surgical</span>
+            <span className="whitespace-nowrap text-xs 2xl:text-sm uppercase tracking-wider 2xl:tracking-widest">Surgical</span>
             <span className="text-[9px] uppercase tracking-widest text-gray-400">Procedures</span>
           </Link>
-          <Link to="/tmj" className="text-sm uppercase tracking-widest text-gray-500 hover:text-black transition-colors">TMJ</Link>
+          <Link to="/tmj" className="whitespace-nowrap text-xs 2xl:text-sm uppercase tracking-wider 2xl:tracking-widest text-gray-500 hover:text-black transition-colors">TMJ</Link>
           <Link to="/referring-doctors" className="flex flex-col items-center text-gray-500 hover:text-black transition-colors">
-            <span className="text-sm uppercase tracking-widest">Referring</span>
-            <span className="text-sm uppercase tracking-widest">Doctors</span>
+            <span className="whitespace-nowrap text-xs 2xl:text-sm uppercase tracking-wider 2xl:tracking-widest">Referring</span>
+            <span className="whitespace-nowrap text-xs 2xl:text-sm uppercase tracking-wider 2xl:tracking-widest">Doctors</span>
           </Link>
-          <Link to="/contact" className="text-sm uppercase tracking-widest text-gray-500 hover:text-black transition-colors">Contact</Link>
-          <Link to="/our-team" className="text-sm uppercase tracking-widest text-gray-500 hover:text-black transition-colors">Our Team</Link>
+          <Link to="/contact" className="whitespace-nowrap text-xs 2xl:text-sm uppercase tracking-wider 2xl:tracking-widest text-gray-500 hover:text-black transition-colors">Contact</Link>
+          <Link to="/our-team" className="whitespace-nowrap text-xs 2xl:text-sm uppercase tracking-wider 2xl:tracking-widest text-gray-500 hover:text-black transition-colors">Our Team</Link>
         </div>
 
         {/* Mobile Menu Button */}
         <button
           onClick={() => setIsMenuOpen(true)}
-          className="md:hidden text-sm uppercase tracking-widest font-medium"
+          aria-label="Open navigation menu"
+          aria-expanded={isMenuOpen}
+          className="xl:hidden shrink-0 text-sm uppercase tracking-widest font-medium"
         >
           Menu —
         </button>
@@ -198,7 +199,6 @@ export default function App() {
         </AnimatePresence>
       </main>
       <Footer />
-      <PWAInstallPrompt />
     </div>
   );
 }
