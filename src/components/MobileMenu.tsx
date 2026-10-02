@@ -15,7 +15,7 @@ export default function MobileMenu({ onClose }: MobileMenuProps) {
       className="fixed inset-0 z-50 bg-white flex flex-col p-6 sm:p-8 overflow-y-auto"
     >
       <div className="flex justify-end">
-        <button onClick={onClose} className="text-2xl font-light">CLOSE —</button>
+        <button onClick={onClose} className="text-sm uppercase tracking-widest font-medium">CLOSE —</button>
       </div>
 
       <nav className="flex flex-col gap-5 my-8">
