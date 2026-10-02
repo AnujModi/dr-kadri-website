@@ -61,7 +61,7 @@ export default function App() {
           {/* Text Branding Stack */}
           <div className="flex flex-col">
             {/* Line 1: Large & Bold */}
-            <span className="text-sm sm:text-2xl xl:text-lg 2xl:text-2xl font-bold tracking-tighter uppercase leading-none dark:text-black">
+            <span className="text-sm sm:text-2xl xl:text-lg min-[1700px]:text-2xl font-bold tracking-tighter uppercase leading-none dark:text-black">
               Carrollton Periodontics
             </span>
 
@@ -73,24 +73,24 @@ export default function App() {
         </Link>
 
         {/* Desktop Links */}
-        <div className="hidden xl:flex flex-1 min-w-0 items-center justify-end gap-4 2xl:gap-6 min-[1700px]:gap-8">
-          <Link to="/patient-info" className="whitespace-nowrap text-xs 2xl:text-sm uppercase tracking-wider 2xl:tracking-widest text-gray-500 hover:text-black transition-colors">Patient Information</Link>
-          <Link to="/periodontal-disease" className="whitespace-nowrap text-xs 2xl:text-sm uppercase tracking-wider 2xl:tracking-widest text-gray-500 hover:text-black transition-colors">Periodontal Disease</Link>
+        <div className="hidden xl:flex flex-1 min-w-0 items-center justify-end gap-4 min-[1700px]:gap-8">
+          <Link to="/patient-info" className="whitespace-nowrap text-xs min-[1700px]:text-sm uppercase tracking-wider min-[1700px]:tracking-widest text-gray-500 hover:text-black transition-colors">Patient Information</Link>
+          <Link to="/periodontal-disease" className="whitespace-nowrap text-xs min-[1700px]:text-sm uppercase tracking-wider min-[1700px]:tracking-widest text-gray-500 hover:text-black transition-colors">Periodontal Disease</Link>
           <Link to="/non-surgical-procedures" className="flex flex-col items-center text-gray-500 hover:text-black transition-colors">
-            <span className="whitespace-nowrap text-xs 2xl:text-sm uppercase tracking-wider 2xl:tracking-widest">Non-Surgical</span>
+            <span className="whitespace-nowrap text-xs min-[1700px]:text-sm uppercase tracking-wider min-[1700px]:tracking-widest">Non-Surgical</span>
             <span className="text-[9px] uppercase tracking-widest text-gray-400">Procedures</span>
           </Link>
           <Link to="/surgical-procedures" className="flex flex-col items-center text-gray-500 hover:text-black transition-colors">
-            <span className="whitespace-nowrap text-xs 2xl:text-sm uppercase tracking-wider 2xl:tracking-widest">Surgical</span>
+            <span className="whitespace-nowrap text-xs min-[1700px]:text-sm uppercase tracking-wider min-[1700px]:tracking-widest">Surgical</span>
             <span className="text-[9px] uppercase tracking-widest text-gray-400">Procedures</span>
           </Link>
-          <Link to="/tmj" className="whitespace-nowrap text-xs 2xl:text-sm uppercase tracking-wider 2xl:tracking-widest text-gray-500 hover:text-black transition-colors">TMJ</Link>
+          <Link to="/tmj" className="whitespace-nowrap text-xs min-[1700px]:text-sm uppercase tracking-wider min-[1700px]:tracking-widest text-gray-500 hover:text-black transition-colors">TMJ</Link>
           <Link to="/referring-doctors" className="flex flex-col items-center text-gray-500 hover:text-black transition-colors">
-            <span className="whitespace-nowrap text-xs 2xl:text-sm uppercase tracking-wider 2xl:tracking-widest">Referring</span>
-            <span className="whitespace-nowrap text-xs 2xl:text-sm uppercase tracking-wider 2xl:tracking-widest">Doctors</span>
+            <span className="whitespace-nowrap text-xs min-[1700px]:text-sm uppercase tracking-wider min-[1700px]:tracking-widest">Referring</span>
+            <span className="whitespace-nowrap text-xs min-[1700px]:text-sm uppercase tracking-wider min-[1700px]:tracking-widest">Doctors</span>
           </Link>
-          <Link to="/contact" className="whitespace-nowrap text-xs 2xl:text-sm uppercase tracking-wider 2xl:tracking-widest text-gray-500 hover:text-black transition-colors">Contact</Link>
-          <Link to="/our-team" className="whitespace-nowrap text-xs 2xl:text-sm uppercase tracking-wider 2xl:tracking-widest text-gray-500 hover:text-black transition-colors">Our Team</Link>
+          <Link to="/contact" className="whitespace-nowrap text-xs min-[1700px]:text-sm uppercase tracking-wider min-[1700px]:tracking-widest text-gray-500 hover:text-black transition-colors">Contact</Link>
+          <Link to="/our-team" className="whitespace-nowrap text-xs min-[1700px]:text-sm uppercase tracking-wider min-[1700px]:tracking-widest text-gray-500 hover:text-black transition-colors">Our Team</Link>
         </div>
 
         {/* Mobile Menu Button */}

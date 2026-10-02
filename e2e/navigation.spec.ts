@@ -72,7 +72,7 @@ for (const route of publicRoutes) {
   });
 }
 
-for (const width of [1280, 1366, 1440, 1536, 1920]) {
+for (const width of [1280, 1366, 1440, 1536, 1699, 1700, 1920]) {
   test(`Given a ${width}px desktop, when the header renders, then logo and all navigation links share one row`, async ({ page }) => {
     // Given
     await page.setViewportSize({ width, height: 900 });
