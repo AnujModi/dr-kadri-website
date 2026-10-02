@@ -97,26 +97,31 @@ export default function Contact() {
         </div>
       </div>
 
-      {/* Map Section */}
-      <Reveal width="100%">
-        <div className="mt-32 w-full grayscale hover:grayscale-0 transition-all duration-700 cursor-pointer group">
+      {/* Map and directions */}
+      <div className="mt-20 sm:mt-32 w-full">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-6 mb-6">
+          <div>
+            <h3 className="text-2xl font-display italic text-gray-800">Find our office</h3>
+            <p className="mt-2 text-sm text-gray-600">530 Newnan Street, Carrollton, GA 30117</p>
+          </div>
           <a
-            href="https://maps.google.com/maps?q=530+Newnan+Street+Carrollton+GA+30117"
+            href="https://www.google.com/maps/dir/?api=1&destination=530%20Newnan%20Street%2C%20Carrollton%2C%20GA%2030117"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative block w-full h-[500px] bg-gray-100 overflow-hidden"
+            className="inline-flex min-h-11 items-center justify-center shrink-0 bg-gray-900 px-6 py-3 text-sm font-medium text-white hover:bg-gray-700 transition-colors focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gray-900"
           >
-            <div className="absolute inset-0 flex items-center justify-center text-gray-400 italic">
-              [Google Maps Static Image Placeholder]
-            </div>
-            <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors" />
-            <div className="absolute bottom-8 left-8 bg-white p-6 shadow-xl">
-              <p className="text-sm font-bold tracking-tighter">VIEW ON GOOGLE MAPS</p>
-              <p className="text-xs text-gray-500 uppercase mt-1">Opens in new tab</p>
-            </div>
+            Get directions <span className="sr-only">(opens Google Maps in a new tab)</span>
           </a>
         </div>
-      </Reveal>
+        <iframe
+          title="Map to Carrollton Periodontics at 530 Newnan Street"
+          src="https://maps.google.com/maps?q=530%20Newnan%20Street%2C%20Carrollton%2C%20GA%2030117&z=16&output=embed"
+          className="block w-full h-[320px] sm:h-[450px] border-0 bg-gray-100"
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          allowFullScreen
+        />
+      </div>
     </section>
   );
 }
