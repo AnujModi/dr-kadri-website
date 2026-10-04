@@ -85,6 +85,8 @@ npm run preview
 
 The generated `dist/` folder is the deployment artifact for Cloudflare Pages. It is intentionally excluded from Git, along with dependencies, local environment files, upload ZIPs, editor settings, and test reports. Deploy at the domain root; for other hosts configure SPA route fallback to `index.html`. This project does not ship the previously rejected catch-all `_redirects` rule.
 
+The build also writes an HTML entry file for every known route (for example, `dist/our-team.html` and `dist/our-team/dr-hazeka.html`). Cloudflare Pages serves these files at their extensionless URLs, so direct visits and refreshes do not require `_redirects`. React renders the requested page from that URL. The shared route contract is `src/data/publicRoutes.ts`; update it when adding a public page. Legacy doctor links are generated from `doctorData`. Upload the entire freshly built `dist/` folder. Verify direct visits and refreshes on the deployed domain after upload; local checks cannot confirm Cloudflare deployment success.
+
 Analytics is optional. See `.env.example` if you want to configure it; never put private credentials in client-side `VITE_` variables.
 
 ## Media attribution

@@ -125,7 +125,7 @@ VII. FLUORIDE daily to protect against plaque buildup, sensitivity, and cavities
 We are always here to help you in your journey towards a healthy mouth which leads to improving your overall health. Call us if we can review any of these steps or if you have questions (770-832-0089).
 
 Caring For Sensitive Teeth
-Sometimes after dental treatment, teeth are sensitive to hot and cold. If the mouth is kept clean, this sensation should not last long. However, if the mouth is not kept clean, the sensitivity will remain and could become more severe. If your teeth are especially sensitive, consult with Dr. Thomas-Moses. A medicated toothpaste or mouth rinse made especially for sensitive teeth may be recommended.`,
+Sometimes after dental treatment, teeth are sensitive to hot and cold. If the mouth is kept clean, this sensation should not last long. However, if the mouth is not kept clean, the sensitivity will remain and could become more severe. If your teeth are especially sensitive, consult with our doctors. A medicated toothpaste or mouth rinse made especially for sensitive teeth may be recommended.`,
   },
   {
     id: "when-to-see-periodontist",
@@ -177,7 +177,7 @@ Highest Risk:
 • Patients age 65 and older with lifestyle risk factors
 • Patients with a history of oral cancer
 
-Dr. Thomas-Moses' Practice provides a variety of non-surgical and surgical services. We pride ourselves on the fact that we are conservative in our treatment recommendations and limit surgery to the areas where it is absolutely necessary.
+This Practice provides a variety of non-surgical and surgical services. We pride ourselves on the fact that we are conservative in our treatment recommendations and limit surgery to the areas where it is absolutely necessary.
 
 Remember that your mouth is one of your body's most important warning systems. Do not ignore suspicious lumps or sores. Please contact us so we may help.`,
   },

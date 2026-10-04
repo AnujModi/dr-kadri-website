@@ -5,11 +5,11 @@ export const patientInfo = [
     image: "/images/patient-info/Patient Information Porch.jpg",
     content: `Welcome to our practice website. We congratulate you on taking the first step toward better periodontal health. Please utilize this website as a resource. It will help you better understand your course of treatment and answer any questions related to periodontal therapy.
 
-Dr. Thomas-Moses is a specialist in Periodontics. Our practice specializes in the treatment of periodontal (gum) disease, the surgical placement of dental implants that can replace a single or multiple missing teeth, cosmetic procedures to esthetically enhance your smile, treatment for disorders of the temporomandibular complex (TMJ) and the diagnosis of oral pathology through biopsy/treatment, including screening for oral cancer.
+At Carrollton Periodontics, we have three specialties under one roof. Periodontics, Prosthodontics and TMJ specialist. Our practice specializes in the treatment of periodontal (gum) disease, the surgical placement of dental implants that can replace a single or multiple missing teeth, cosmetic procedures to esthetically enhance your smile, treatment for disorders of the temporomandibular complex (TMJ) and the diagnosis of oral pathology through biopsy/treatment, including screening for oral cancer.
 
 Since few people enjoy going to the physician or dentist, we strive to make your visits with us as comfortable and pleasant as possible. We strongly believe that our patients' comfort and satisfaction is an important part of quality dental care.
 
-Dr. Thomas-Moses believes that your right to choose a dentist is an important freedom. We work closely with our referring dentists, but a referral by a dentist is not required to visit our office. We also welcome referrals from patients and friends of the practice.
+Our doctors believe that your right to choose a dentist is an important freedom. We work closely with our referring dentists, but a referral by a dentist is not required to visit our office. We also welcome referrals from patients and friends of the practice.
 
 We are extraordinarily proud of our team, which is comprised of caring and dedicated professionals. They ensure that the patient's preventive non-surgical, surgical and administrative needs are met as efficiently and effectively as possible.
 
@@ -21,11 +21,11 @@ We are here to listen to your questions and concerns and help provide solutions 
     id: "scheduling",
     title: "Scheduling",
     image: "/images/patient-info/Scheduling Front-desk.jpg",
-    content: `Dr. Thomas-Moses is available Monday through Thursday from 8:00 A.M. to 5:00 P.M (some Fridays by appointment). We will schedule your new patient appointment as promptly as possible. Sufficient time will be scheduled exclusively for you and our attention will be focused on you and your specific needs. Please allow an hour and a half to two hours for your initial visit, which will involve any necessary dental radiographic imaging, dental photographs, a complete health history review, interview with Dr. Thomas-Moses to fully explain your dental concerns/questions, occlusal and TMJ examination and treatment planning discussions for your health and dental needs.
+    content: `Our doctors are available Monday through Thursday from 8:00 A.M. to 5:00 P.M (some Fridays by appointment). We will schedule your new patient appointment as promptly as possible. Sufficient time will be scheduled exclusively for you and our attention will be focused on you and your specific needs. Please allow an hour and a half to two hours for your initial visit, which will involve any necessary dental radiographic imaging, dental photographs, a complete health history review, interview with our doctors to fully explain your dental concerns/questions, occlusal and TMJ examination and treatment planning discussions for your health and dental needs.
 
 Patients experiencing pain and emergency situations will be addressed as quickly as possible.
 
-We do everything possible to stay on schedule to minimize waiting at the time of your appointment. Attending to emergency patients and surgical patients may cause delays to our schedule. Dr. Thomas-Moses does not believe in "rushing" any procedure and ensures adequate time for patient questions. We are certain that if this emergency or surgical need becomes your need, you will appreciate our philosophy.`,
+We do everything possible to stay on schedule to minimize waiting at the time of your appointment. Attending to emergency patients and surgical patients may cause delays to our schedule. Our doctors do not believe in "rushing" any procedure and ensures adequate time for patient questions. We are certain that if this emergency or surgical need becomes your need, you will appreciate our philosophy.`,
   },
   {
     id: "insurance",
@@ -40,7 +40,7 @@ As an out-of-network provider, we request payment in full at the time of the vis
     title: "Financial Policy",
     image: "/images/patient-info/Financial Policy patio-with-birdbath.jpg",
     content: `Financial Information
-Dr. Thomas-Moses and her staff are proud to be a team whose primary mission is to deliver comprehensive periodontal services. We are concerned about your dental care and want to ensure that it is performed in the most responsible manner. As an out-of-network dental provider, we require payment in full at the time of the visit. We will then file your dental insurance on your behalf with a request that any reimbursement be sent directly to the subscriber. In order to assist you with the investment in your dental health, we have outlined our payment policy.
+Our doctors and staff are proud to be a team whose primary mission is to deliver comprehensive periodontal services. We are concerned about your dental care and want to ensure that it is performed in the most responsible manner. As an out-of-network dental provider, we require payment in full at the time of the visit. We will then file your dental insurance on your behalf with a request that any reimbursement be sent directly to the subscriber. In order to assist you with the investment in your dental health, we have outlined our payment policy.
 
 For those who would prefer an extended payment plan, outside financing is available. For more information, contact CareCredit at (800) 365-8295 or www.carecredit.com
 
@@ -50,7 +50,7 @@ For your convenience, payments may be made with cash, personal check, bank draft
     id: "frequently-asked-questions",
     title: "Frequently Asked Questions",
     content: `What will happen at my Initial visit?
-Your initial (first) visit to our Practice will involve co-discovery of your overall oral health findings and needs. Co-discovery allows you to provide Dr. Thomas-Moses with all your dental history and concerns and in turn provides her the opportunity to inform you of your oral health diagnosis, needs and treatment discussions to help you thoroughly understand those needs and options for treatment. To prepare our Practice for your arrival, please provide the following on the day of your appointment, or in advance, by downloading and completing our patient registration forms.
+Your initial (first) visit to our Practice will involve co-discovery of your overall oral health findings and needs. Co-discovery allows you to provide our doctors with all your dental history and concerns and in turn provides her the opportunity to inform you of your oral health diagnosis, needs and treatment discussions to help you thoroughly understand those needs and options for treatment. To prepare our Practice for your arrival, please provide the following on the day of your appointment, or in advance, by downloading and completing our patient registration forms.
 
 • Photo ID
 • Any available referral slips and radiographs (x-rays) from your referring dentist
@@ -58,7 +58,7 @@ Your initial (first) visit to our Practice will involve co-discovery of your ove
 • All dental and medical insurance cards that may apply
 • Please notify the office if you have medical conditions or concerns prior to any visit (e.g., artificial heart valves, surgically placed heart stents and/or joint replacement to include hip, knee and shoulder which may require pre-medication prior to dental visits)
 
-With permission, Dr. Thomas-Moses will work closely with your referring general dentist to thoroughly discuss her findings and the specific details of your future care.
+With permission, our doctors will work closely with your referring general dentist to thoroughly discuss her findings and the specific details of your future care.
 
 Will it hurt?
 We will always be most gentle and considerate by being attentive to all your personal needs and desires. The periodontal examination can be completed with little or no discomfort.
@@ -67,7 +67,7 @@ Do I need radiographs (x-rays)?
 In order to properly diagnose periodontal disease, current periodontal radiographs (x-rays) are required. The specific type of radiographs we will need for your examination are called an FMX (full mouth series of radiographs). If there are any TMJ concerns or if we are discussing implant placement, other types of radiographs, such as a CBCT scan, may become necessary. If your referring dentist has taken radiographs, you may request that they be forwarded to us via email at info@carrolltonperio.com or by mail.
 
 What will treatment cost?
-Since all patient needs are different, Dr. Thomas-Moses must complete a thorough examination before establishing your treatment plan and the fee for your care. The fee for treatment can vary considerably, depending on your type of needs and the complexity and length of treatment. An approximate fee can usually be determined at the initial visit, but on occasion, some initial treatment or further diagnostics must be completed before the final treatment plan can be established. Our philosophy of practice is to treat as conservatively as possible to attain your overall needs and goals.
+Since all patient needs are different, our doctors must complete a thorough examination before establishing your treatment plan and the fee for your care. The fee for treatment can vary considerably, depending on your type of needs and the complexity and length of treatment. An approximate fee can usually be determined at the initial visit, but on occasion, some initial treatment or further diagnostics must be completed before the final treatment plan can be established. Our philosophy of practice is to treat as conservatively as possible to attain your overall needs and goals.
 
 Will my Insurance cover the cost?
 Dental insurance policies often cover periodontal treatment. Please bring all dental and medical benefit information and cards to your examination appointment. As an out-of-network dental provider, we require payment in full at the time of the visit. We will then file your dental insurance on your behalf with a request that any reimbursement be sent directly to the subscriber. Upon request, we will submit a predetermination to your dental insurance. Please note some of our procedures may be covered under your medical insurance. We do not participate with any dental/medical insurance plans, pre-pay plans, Medicare/Medicaid or discount plans.
@@ -88,9 +88,9 @@ Periodontal disease is a progressive, often painless, infection. Delay can cause
     id: "new-patient-interview",
     title: "New Patient Interview",
     content: `Periodontal Examination
-Our examination will involve a complete dental examination and medical review. It will include an uninterrupted conversation with Dr. Thomas-Moses to thoroughly review all your records and discuss your individual needs.
+Our examination will involve a complete dental examination and medical review. It will include an uninterrupted conversation with our doctors to thoroughly review all your records and discuss your individual needs.
 
-This will be a time of Co-Discovery where you and Dr. Thomas-Moses together determine and understand your presenting conditions and needs.
+This will be a time of Co-Discovery where you and our doctors together determine and understand your presenting conditions and needs.
 
 This Co-Discovery will:
 • Be Personalized to your needs

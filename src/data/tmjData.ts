@@ -6,7 +6,7 @@ export const tmjData = [
     video: "/videos/tmj/tmj-animation.mp4",
     introContent: `TMJ (temporomandibular joint) disorders are a family of problems related to your jaw joint. If you have had symptoms like pain or a "clicking" sound, you'll be glad to know that these problems are more easily diagnosed and treated than they were in the past. These symptoms occur when the joints of the jaw and the chewing muscles do not work together correctly. TMJ stands for temporomandibular joint, which is the name for each joint (right and left) that connects your jaw to your skull. Since some types of TMJ problems can lead to more serious conditions, early detection and treatment are important.
 
-No one treatment can resolve TMJ disorders completely and treatment takes time to become effective. Dr. Thomas-Moses can help you have a healthier, more comfortable jaw.`,
+No one treatment can resolve TMJ disorders completely and treatment takes time to become effective. Our doctors can help you have a healthier, more comfortable jaw.`,
     sections: [
       {
         id: "trouble-with-jaw",
@@ -37,7 +37,7 @@ No one treatment can resolve TMJ disorders completely and treatment takes time t
       {
         id: "tmj-treatment",
         title: "TMJ Treatment",
-        content: `There are various treatment options for TMJ that Dr. Thomas-Moses can utilize to improve the harmony and function of your jaw. Once an evaluation confirms a diagnosis of TMJ disorder, Dr. Thomas-Moses will determine the proper course of treatment. It is important to note that treatment always works best with a team approach of self-care combined with professional care.
+        content: `There are various treatment options for TMJ that our doctors can utilize to improve the harmony and function of your jaw. Once an evaluation confirms a diagnosis of TMJ disorder, our doctors will determine the proper course of treatment. It is important to note that treatment always works best with a team approach of self-care combined with professional care.
 
 The initial goals are to relieve the muscle spasms and joint pain. This is usually accomplished with a pain reliever, anti-inflammatory, or muscle relaxant. Steroids can be injected directly into the joints to reduce pain and inflammation. Self-care treatments can often be effective as well and include:`,
         listItems: [

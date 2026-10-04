@@ -5,8 +5,8 @@ import { doctorData } from "../data/doctorData";
 
 const doctors = [
   {
-    name: "Dr. Donna Thomas-Moses",
-    role: "Periodontist",
+    name: doctorData["dr-moses"].name,
+    role: doctorData["dr-moses"].title,
     slug: "dr-moses",
     image: doctorData["dr-moses"].image,
     degree: "DMD, Certificate in Periodontics",

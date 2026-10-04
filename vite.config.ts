@@ -4,10 +4,29 @@ import tailwindcss from '@tailwindcss/vite'
 import { imagetools } from 'vite-imagetools'
 import viteCompression from 'vite-plugin-compression'
 import { visualizer } from 'rollup-plugin-visualizer'
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { dirname, resolve } from 'node:path'
+import { publicRoutes } from './src/data/publicRoutes'
+import { doctorData } from './src/data/doctorData'
 
 export default defineConfig({
   plugins: [
     react(),
+    {
+      name: 'static-route-entry-files',
+      apply: 'build',
+      writeBundle(options) {
+        const output = resolve(options.dir ?? 'dist')
+        const html = readFileSync(resolve(output, 'index.html'), 'utf8')
+        const routes = [...publicRoutes, ...Object.keys(doctorData).map(id => `/meet-${id}`)]
+        for (const route of routes.filter(route => route !== '/')) {
+          // Cloudflare serves /our-team.html at /our-team, without SPA rewrites.
+          const file = resolve(output, `${route.slice(1)}.html`)
+          mkdirSync(dirname(file), { recursive: true })
+          writeFileSync(file, html)
+        }
+      },
+    },
     tailwindcss(),
     imagetools({
       defaultDirectives: () => {

@@ -33,7 +33,7 @@ Select from the options below to access our referral form.`,
     id: "links-of-interest",
     title: "Links of Interest",
     hasSections: true,
-    introContent: `The following websites are provided as a resource for our referring doctors. This page contains hyperlinks to World Wide Web sites that are created and maintained by other organizations. We have included these links because we think that our referring doctors may find them of interest. Keep in mind that Dr. Thomas-Moses does not necessarily endorse the views expressed on these websites. Also, we do not guarantee the accuracy or completeness of any information presented on these sites.`,
+    introContent: `The following websites are provided as a resource for our referring doctors. This page contains hyperlinks to World Wide Web sites that are created and maintained by other organizations. We have included these links because we think that our referring doctors may find them of interest. Keep in mind that our doctors do not necessarily endorse the views expressed on these websites. Also, we do not guarantee the accuracy or completeness of any information presented on these sites.`,
     sections: [
       {
         id: "general-links",
