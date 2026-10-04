@@ -21,7 +21,7 @@ const staffMembers: { name: string; role: string; image: string | null; bio?: st
   },
   {
     name: "Katelyn",
-    role: "Dental Assistant",
+    role: "Lead Surgical Assistant",
     image: "/images/team/katelyn.jpeg",
     bio: [
       "Katelyn is a dedicated dental assistant who enjoys helping patients feel comfortable and confident during their dental visits. She takes pride in creating a welcoming environment and working alongside her team to provide excellent patient care.",
@@ -30,13 +30,13 @@ const staffMembers: { name: string; role: string; image: string | null; bio?: st
     ],
   },
   {
-    name: "Candace",
+    name: "Candace Walker",
     role: "Practice Team Co-ordinator",
-    image: null,
+    image: "/images/team/candace.jpeg",
   },
   {
     name: "Holly Marchman",
-    role: "Team Member",
+    role: "Patient Coordinator",
     image: "/images/team/holly.jpeg",
   },
 ];

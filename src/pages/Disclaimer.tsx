@@ -25,7 +25,7 @@ export default function Disclaimer() {
             </p>
             <p>
               This web site is not intended to offer specific medical, dental or surgical advice to anyone.
-              Further, this web site and Donna Thomas-Moses, DMD, PC take no responsibility for web sites
+              Further, this web site, Donna Thomas-Moses, DMD, and Hazeka Kadri, DMD, PC take no responsibility for web sites
               hyper-linked to this site and such hyperlinking does not imply any relationships or
               endorsements of the linked sites.
             </p>
@@ -63,9 +63,9 @@ export default function Disclaimer() {
           <div className="text-gray-700 font-light leading-loose text-lg space-y-4">
             <p>
               By entering your full name, email address, and phone number, you are providing personal
-              information that will be used by Donna Thomas-Moses, DMD, PC for the sole purpose of
+              information that will be used by Donna Thomas-Moses, DMD, and Hazeka Kadri, DMD, PC for the sole purpose of
               returning your request to be contacted by us. We will only use this information to contact
-              you in order to assist you in scheduling an appointment to be seen by Dr. Thomas-Moses,
+              you in order to assist you in scheduling an appointment to be seen by our doctors,
               and/or to answer any questions you may have indicated in the comments section.
             </p>
             <p>
@@ -117,7 +117,7 @@ export default function Disclaimer() {
           </h2>
           <div className="text-gray-700 font-light leading-loose text-lg space-y-4">
             <p>
-              We strive to make the Donna Thomas-Moses, DMD, PC website universally accessible and
+              We strive to make the Donna Thomas-Moses, DMD, and Hazeka Kadri, DMD, PC website universally accessible and
               we are continuously working to improve the accessibility of content on our website.
             </p>
             <p>

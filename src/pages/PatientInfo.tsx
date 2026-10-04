@@ -12,7 +12,7 @@ export default function PatientInfo() {
   const faqData = [
     {
       question: "What will happen at my initial visit?",
-      answer: "Your initial visit will involve co-discovery of your overall oral health findings and needs. Please provide photo ID, any referral slips and x-rays from your referring dentist, a list of current medications, and dental/medical insurance cards. Allow 1.5-2 hours for your first appointment which includes examination, health history review, interview with Dr. Thomas-Moses, and treatment planning discussions.",
+      answer: "Your initial visit will involve co-discovery of your overall oral health findings and needs. Please provide photo ID, any referral slips and x-rays from your referring dentist, a list of current medications, and dental/medical insurance cards. Allow 1.5-2 hours for your first appointment which includes examination, health history review, interview with our doctors, and treatment planning discussions.",
     },
     {
       question: "Will it hurt?",
